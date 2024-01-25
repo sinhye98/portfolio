@@ -1,0 +1,118 @@
+@media screen and (max-width: 1500px) {
+    html {
+        overflow-x: scroll;
+    }
+    .main_text h3:after {
+        display: none;
+    }
+    #content1 .about_pic {
+        margin-left: -195px;
+    }
+    .design {
+        display: flex;
+        flex-direction: column;
+    }
+    .design_pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .design_text,
+    .figma {
+        display: none;
+    }
+    .design:after {
+        display: none;
+    }
+    .design_pic img {
+        width: 300px;
+    }
+    .about_text .skill h3 {
+        font-size: 1.199rem;
+    }
+    .port_pic .site img {
+        width: 500px;
+    }
+    .summary p {
+        font-size: 1.099rem;
+    }
+    .site1:after {
+        display: none;
+    }
+    .site2::before {
+        display: none;
+    }
+    .popup_base .pop_content {
+        width: 200px;
+        top: 150px; left: 30px;
+    }
+    #content2 {
+        margin-top: 150px;
+    }
+    #content4 {
+        margin-top: 150px;
+    }
+    .head2 h1 {
+        display: none;
+    }
+    .about_text .skill {
+        position: relative;
+        top: 20%; left: 10%;
+    }
+}
+@media screen and (max-width: 1030px) {
+    main figure > img {
+        width: 50%;
+    }
+    .contact .text p {
+        font-size: 18px;
+    }
+    .port_pic .site img {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .popup_base .pop_content {
+        position: absolute;
+        top: 10%; left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .design_pic img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .contact a {
+        position: absolute;
+        top: 300px;
+    }
+    .port_pic {
+        display: flex;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .wrap01 {
+        position: relative;
+        transform: translate(-50%, -50%);
+        top: 8%; left: 45%;
+    }
+    .design_pic {
+        position: relative;
+    }
+    .design_pic img {
+        position: relative;
+        left: 40%;
+    }
+}
