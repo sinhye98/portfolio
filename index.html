@@ -1,5 +1,181 @@
-<html>
-  <body>
-    <h1>안녕하세요</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정신혜 포트폴리오</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="head head1">
+            <h1>WEB</h1>
+        </div>
+        <div class="wrap wrap01">
+            <button onclick="fnMove('1')" class="active">about me</button>
+            <button onclick="fnMove('2')">portfolio</button>
+            <button onclick="fnMove('3')">design</button>
+            <button onclick="fnMove('4')">contact</button>
+        </div>
+    </header>
+    <main>
+        <figure><img src="img/main.png" alt=""></figure>
+        <div class="main_text">
+            <h2>Jung Sin Hye's</h2>
+            <h3>PORTFOLIO</h3>
+            <p>안녕하세요 끊임없는 노력으로 최선을 다하는 <br> 신입 웹퍼블리셔 정신혜입니다</p>
+        </div>
+        <div class="head head2">
+            <h1>PUBLISHER</h1>
+        </div>
+    </main>
+    <div class="wrap wrap02">
+        <div id="content1">
+            <h1>01</h1>
+            <h2>about me</h2>
+            <div class="about">
+                <div class="about_pic">
+                    <figure><img src="img/KakaoTalk_20231110_010455428.jpg" alt=""></figure>
+                    <dl>
+                        <dt>정신혜</dt>
+                        <dd>1998 09 27</dd>
+                        <dd>wjj1524@gmail.com</dd>
+                    </dl>
+                </div>
+                <div class="about_text">
+                    <div class="career">
+                        <span>career</span>
+                        <p>[2020-04-10 - 2020-06-03] ITQ(한글,파워포인트,엑셀) 정상수료</p>
+                        <p>[2023-04-14 - 2023-10-23] UI/UX 반응형 웹디자인&웹퍼블리셔 정상수료</p>
+                    </div>
+                    <div class="summary">
+                        <p>비전공자라는 부담감이 있었지만 새로운 도전이라 생각하고 시작을 하였습니다.</p>
+                        <p>직접 코딩을 하고 제가 생각했던 결과물이 나오니 저에겐 너무 흥미 있게 다가와서</p>
+                        <p> 웹 퍼블리셔라는 큰 꿈이 생겼습니다. 어려움을 이겨내고 끈기와 끊임없는 노력으로</p>
+                        <p>처음 도전을 했던 마음처럼 열정적인 웹 퍼블리셔가 되겠습니다.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>skill</h3>
+                        <ul>
+                            <li><img src="img/html.png" alt=""></li>
+                            <li><img src="img/css.png" alt=""></li>
+                            <li><img src="img/jq.png" alt="" style="width: 80px; padding-inline: 10px 25px;"></li>
+                            <li><img src="img/photoshop.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content2">
+            <h1>02</h1>
+            <h2>portfolio</h2>
+            <div class="port_pic">
+                <div class="site site1">
+                    <img src="img/altools.png" alt="">
+                    <button onclick="$('.popup_base').css('height', $(document).height()); $('.contact_pop').fadeIn();"  class="view">view</button>
+                </div>
+                <div class="site site2">
+                    <img src="img/royal.png" alt="">
+                    <button onclick="$('.popup_base').css('height', $(document).height()); $('.space_pop').fadeIn();" class="view">view</button>
+                </div>
+            </div>
+            <div class="popup_base contact_pop">
+                <div class="pop_content">
+                    <p class="btn_xpop">
+                        <button href="#" onclick="$('.popup_base').fadeOut()">닫기</button>
+                    </p>
+                    <ul class="pop_list">
+                        <li>
+                            <img src="img/altools_pc.png" alt="">
+                            <dl>
+                                <dt><img src="img/Untitled-1.png" alt="" style="width: 40px;">altools website <br> clone coding<img src="img/Untitled-2.png" alt="" style="width: 40px;"></dt>
+                                <dd class="long">flex를 주로 사용하였고 grid를 배우고 처음 사용해보았습니다 <br> 기존 사이트와 동일하게 모바일 반응형 페이지와 함께 제작하였습니다
+                                </dd>
+                                <dd>퍼블리싱 제작 방식 : html + css +jquery</dd>
+                                <dd>레이아웃 제작 방식 : flex + grid + position etc..</dd>
+                                <dd>제작 참여율 : 100%</dd>
+                            </dl>
+                            <div class="site_tag">
+                                <a href="https://sinhye98.github.io/portfolio_altools/" class="altools">사이트 바로가기</a>
+                                <a href="https://github.com/sinhye98/portfolio_altools.git" class="github">github 바로가기</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup_base space_pop">
+                <!-- popup-base는 모든 팝업의 공통 스타일이 선언된 클래스로 다른 팝업에도 공통으로 적용됨 -->
+                <div class="pop_content">
+                    <p class="btn_xpop">
+                        <button href="#" onclick="$('.popup_base').fadeOut()">닫기</button>
+                    </p>
+                    <ul class="pop_list">
+                        <li>
+                            <img src="img/royal_pc.png" alt="">
+                            <dl>
+                                <dt><img src="img/Untitled-1.png" alt="" style="width: 40px;">hotel website <br> clone coding<img src="img/Untitled-2.png" alt="" style="width: 40px; position: absolute;
+                                top: 53px; right: 95px;"></dt>
+                                <dd class="long">
+                                    <p>flex와 jquery를 주로 사용하였고 기존 사이트와 동일하게 <br> 태블릿 반응형 페이지와 함께 제작하였습니다</p>
+                                </dd>
+                                <dd>퍼블리싱 제작 방식 : html + css +jquery</dd>
+                                <dd>레이아웃 제작 방식 : flex + grid + position etc..</dd>
+                                <dd>제작 참여율 : 100%</dd>
+                            </dl>
+                            <div class="site_tag">
+                                <a href="https://sinhye98.github.io/portfolio_royalhotel/" class="royal">사이트 바로가기</a>
+                                <a href="https://github.com/sinhye98/portfolio_royalhotel.git" class="github">github 바로가기</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="content3">
+            <h1>03</h1>
+            <h2>design</h2>
+            <div class="design">
+                <div class="design_pic">
+                    <img src="img/intro1.png" alt="">
+                    <img src="img/intro2.png" alt="">
+                    <img src="img/main1.png" alt="">
+                </div>
+                <div class="design_text">
+                    <dl>
+                        <dt>반려견 쇼핑 앱<img src="img/petmoug.png" alt=""></dt>
+                        <dd>평소 반려동물을 좋아하던 저는 반려동물을 키우면서 영감을 받아 <br> 커뮤니티/케어공간/쇼핑공간이 하나의 어플 안에 있으면 <br> 어떨까 하는 마음에 어플 디자인을 해보았습니다</dd>
+                        <dd>사용툴 : adobe photoshop</dd>
+                        <dd>제작 참여율 : 100%</dd>
+                    </dl>
+                </div>
+                    <a href="https://www.figma.com/file/pomV13in0h7VWBr0b6ikpT/%ED%8E%AB%EC%B8%A0%EB%A9%8D?type=design&node-id=0-1&mode=design&t=NZPMviQe1BujkgBs-0" class="figma">figma 바로가기</a>
+            </div>
+        </div>
+        <div id="content4">
+            <h1>04</h1>
+            <h2>contact</h2>
+            <div class="contact">
+                <div class="text">
+                    <p>의지를 잃지 않고 항상 최선을 다하는</p>
+                    <p>웹 퍼블리셔가 되겠습니다! 감사합니다.</p>
+                </div>
+                    <a href="#">github 바로가기</a>
+                <img src="img/contact.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
