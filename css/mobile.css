@@ -100,8 +100,6 @@
     }
 }
 @media screen and (max-width: 800px) {
-    html {
-        overflow-
     .head1 > h1 {
         display: none;
     }
@@ -216,7 +214,8 @@
 }
 @media screen and (max-width: 800px) {
     html {
-        overflow: hidden;
+        overflow-y: scroll;
+    }
     header .wrap {
         gap: 30px;
         display: flex;
@@ -323,6 +322,9 @@
         width: 120px;
         position: absolute;
         top: 830px; left: 65%;
+    }
+    #content4 {
+        margin-top: 200px;
     }
     .contact {
         display: flex;
