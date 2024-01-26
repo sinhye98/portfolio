@@ -214,7 +214,7 @@
 }
 @media screen and (max-width: 800px) {
     html {
-        overflow-y: scroll;
+        overflow-y: auto;
     }
     header .wrap {
         gap: 30px;
