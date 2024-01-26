@@ -50,9 +50,6 @@ header .wrap {
     font-size: 9.925rem;
     z-index: -999;
 }
-.wrap h2 {
-
-}
 .wrap > button {
     text-transform: uppercase;
     border: none;
