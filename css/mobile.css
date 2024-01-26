@@ -1,7 +1,4 @@
 @media screen and (max-width: 1500px) {
-    html {
-        overflow-x: scroll;
-    }
     .main_text h3:after {
         display: none;
     }
@@ -17,10 +14,10 @@
         align-items: center;
         justify-content: center;
     }
-    .design_text,
+    /* .design_text,
     .figma {
         display: none;
-    }
+    } */
     .design:after {
         display: none;
     }
@@ -102,7 +99,19 @@
         gap: 30px;
     }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
+    .head1 > h1 {
+        display: none;
+    }
+    main {
+        margin-top: 100px;
+    }
+    main figure img {
+        width: 70%;
+    }
+    header {
+        height: 100px;
+    }
     .wrap01 {
         position: relative;
         transform: translate(-50%, -50%);
@@ -114,5 +123,205 @@
     .design_pic img {
         position: relative;
         left: 40%;
+    }
+    #content1 {
+        position: relative;
+    }
+    #content1 h1 {
+        font-size: 6.399rem;
+    }
+    #content1 h2 {
+        font-size: 2.999rem;
+        margin: -40px;
+    }
+    #content1 .about_pic {
+        background: none;
+    }
+    #content1 .about_pic::before {
+        position: absolute;
+        content: '';
+        width: 800px;
+        height: 400px;
+        top: 150px;
+        background: #ebf6ff;
+        z-index: -999;
+    }
+    #content1 .about_pic figure img {
+        position: relative;
+        top: 0; left: 85%;
+        width: 50vw;
+    }
+    #content1 .about_pic dl {
+        margin: -210px -55px;
+    }
+    .about_text {
+        margin-top: -200px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    #content2 {
+        margin-top: 280px;
+    }
+    #content2 h1 {
+        font-size: 6.399rem;
+    }
+    #content2 h2 {
+        font-size: 2.999rem;
+        margin: -40px;
+    }
+    .port_pic {
+        margin-left: 100px;
+    }
+    #content3 {
+        position: relative;
+    }
+    #content3 h1 {
+        font-size: 6.399rem;
+    }
+    #content3 h2 {
+        font-size: 2.999rem;
+        margin: -40px;
+    }
+    .design_text dl dd:nth-child(3) {
+        margin-top: 50px;
+    }
+    .design_text dl dd:nth-child(n+3) {
+        position: absolute;
+        top: 600px; left: 70%;
+    }
+    .figma {
+        position: absolute;
+        top: 600px; left: 100%;
+        width: 15%;
+    }
+    #content4 {
+        position: relative;
+    }
+    #content4 h1 {
+        font-size: 6.399rem;
+    }
+    #content4 h2 {
+        font-size: 2.999rem;
+        margin: -40px;
+    }
+    .contact {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%; left: 50%;
+    }
+}
+@media screen and (max-width: 800px) {
+    header .wrap {
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .wrap button {
+        font-size: 0.784rem;
+        margin: 0;
+    }
+    main {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    main figure img {
+        margin: 70px;
+    }
+    .main_text {
+        position: relative;
+        transform: translate(-50%, -50%);
+        top: -200px; left: 40%;
+    }
+    #content1 .about_pic figure img {
+        position: relative;
+        top: 80px; left: 0;
+        width: 55vw;
+    }
+    #content1 .about_pic dl {
+        margin: -80px 0;
+    }
+    #content1 .about_pic dl dt {
+        font-size: 1.879rem;
+    }
+    #content1 .about_pic dl dd {
+        font-size: 1.147rem;
+    }
+    .career span {
+        font-size: 1.555rem;
+        line-height: 1.2;
+    }
+    .career p {
+        font-size: 0.978rem;
+    }
+    .summary p {
+        font-size: 0.907rem;
+    }
+    .about_text ul {
+        display: flex;
+        gap: 0;
+        justify-content: flex-end;
+    }
+    .about_text ul li img {
+        width: 50px;
+        height: 50px;
+        filter: drop-shadow(1px 3px 3px);
+    }
+    .port_pic {
+        display: flex;
+        flex-direction: column;
+    }
+    .site {
+        position: relative;
+        left: -30px;
+    }
+    .port_pic .site .view {
+        position: absolute;
+        top: 100px; left: 150px;
+    }
+    .pop_list dl dt img {
+        display: none;
+    }
+    .pop_list li {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .pop_list li img {
+        width: 300px;
+    }
+    .site_tag {
+        position: absolute;
+        top: 550rpx; right: 30px;
+    }
+    .site_tag > a {
+        font-size: 1.1rem;
+        padding: 10px 15px;
+        border: 1px solid #ebf6ff;
+        border-radius: 10px;
+    }
+    .design_pic {
+        overflow: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+    .design_text {
+        position: relative;
+        margin-left: 10px;
+    }
+    .design_text dl dd:nth-child(n+3) {
+        position: absolute;
+        top: 250px; left: 10%;
+    }
+    .figma {
+        width: 120px;
+        position: absolute;
+        top: 830px; left: 65%;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
     }
 }
