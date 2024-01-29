@@ -6,7 +6,9 @@
     font-weight: 400;
     font-style: normal;
 }
-
+html {
+    overflow-y:hidden;
+}
 body {
     font-family: 'Pretendard-Regular';
 }
