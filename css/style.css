@@ -215,7 +215,7 @@ main figure img {
 
 #content2 {
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 #content2 h2 {
