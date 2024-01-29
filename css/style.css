@@ -125,7 +125,7 @@ main figure img {
     position: relative;
 }
 #content1 {
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 #content1 h2 {
