@@ -339,11 +339,11 @@
         position: relative;
         top: 0; left: -60px;
     }
+    .about_text .skill {
+        height: auto;
+    }
     .about_text .skill ul li img {
         width: 60px; height: 60px;
-    }
-    .about_text .skill ul li img:nth-child(3n) {
-        width: 30px; height: 30px;
     }
     #content2 h1 {
         font-size: 4.989rem;
