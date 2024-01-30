@@ -335,6 +335,9 @@
     }
 }
 @media screen and (max-width: 500px) {
+    html {
+        overflow-y: auto;
+    }
     #content1 h1 {
         font-size: 4.989rem;
     }
