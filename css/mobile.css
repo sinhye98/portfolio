@@ -78,6 +78,9 @@
     }
 }
 @media screen and (max-width: 800px) {
+    html {
+        overflow-x: hidden;
+    }
     .design_pic img {
         display: flex;
         justify-content: center;
